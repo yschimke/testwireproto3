@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.baulsupp.cooee.p;
+
+option java_package = "com.baulsupp.p";
+
+message ImageUrl {
+  optional string url = 1;
+}
